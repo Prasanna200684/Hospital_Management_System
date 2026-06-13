@@ -1,4 +1,3 @@
-# --- Custom Exceptions ---
 class DoctorNotFoundException(Exception): pass
 class PatientNotFoundException(Exception): pass
 class AppointmentAlreadyExistsException(Exception): pass
